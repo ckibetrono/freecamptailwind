@@ -42,11 +42,11 @@ export default function Home() {
       </div>
       <div>
         <input type="checkbox" id="checkbox"></input>
-        <label htmlFor="checkbox">Checkbox</label>
+        <label className="checktext" htmlFor="checkbox">Checkbox</label>
       </div>
       <div className="flex items-start">
         <input type="checkbox" id="checkbox2"></input>
-        <label htmlFor="checkbox2">
+        <label className="checktext" htmlFor="checkbox2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam
           animi asperiores, aperiam, repellendus soluta quam odio earum
           dignissimos mollitia doloribus delectus inventore. Omnis animi labore

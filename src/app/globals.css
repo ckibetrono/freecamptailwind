@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
   h1 {
     @apply mb-2 text-3xl font-bold;
   }
@@ -62,5 +63,9 @@
 
   .Select ul li {
     @apply hover:bg-slate-100
+  }
+
+  .checktext {
+    @apply dark:text-white;
   }
 }
